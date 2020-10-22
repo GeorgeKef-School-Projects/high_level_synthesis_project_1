@@ -32,7 +32,7 @@ int main(){
 
   /* generate random numbers */
   for(int j=0;j<20;j++){
-    unsigned int test_num = rand() % 30000;
+    unsigned int test_num = rand() % 32767;
     unsigned short int ans = digit_counter(test_num);
 
     std::cout << "The number:" << test_num << std::endl;
