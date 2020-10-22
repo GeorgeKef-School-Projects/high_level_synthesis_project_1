@@ -6,8 +6,8 @@
 //The function that returns the number of digits that are equal to one.
 unsigned short int digit_counter(unsigned int Num){
   unsigned short int num_of_ones = 0;
-  unsigned short int exp;
-  int i = 15; //Flaoting point restriction. Check!  
+  unsigned int exp;
+  int i = 31; //Flaoting point restriction. Check!  
   int check_digit;
 
   while(i>=0){
